@@ -1,0 +1,43 @@
+.body {
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+
+.list {
+  list-style: none;
+}
+
+/* шапка страницы */
+.header-line {
+  background: #ffffff;
+}
+
+/*логотип*/
+.logo {
+  color: #2196f3;
+  font-family: Raleway;
+  font-weight: bold;
+  font-style: inherit;
+  font-size: 26px;
+}
+
+.logo-end {
+  color: black;
+  font-family: Raleway;
+  font-style: inherit;
+  font-weight: bold;
+  font-size: 26px;
+}
+/*кнопки навигации*/
+
+/*контакты*/
+
+.contakt {
+  color: #212121;
+  font-family: Roboto;
+}
+.contakt:hover,
+.contakt:focus {
+  color: #2196f3;
+  font-family: Roboto;
+}
