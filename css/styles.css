@@ -1,4 +1,13 @@
-.body {
+:root {
+  --primary-text-color: #212121;
+  --second-text-color: #2196f3;
+  --background-head-color: #ffffff;
+  --background-work-color: #e5e5e5;
+  --background-comand-color: #f5f4fa;
+  --background-footer-color: #2f303a;
+}
+
+body {
   font-family: 'Raleway', sans-serif;
   font-family: 'Roboto', sans-serif;
 }
