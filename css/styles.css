@@ -189,7 +189,7 @@ h3.section-team-text {
   font-size: 16px;
   line-height: 19px;
   text-align: center;
-  letter-spacing: 0.03em; 
+  letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
 
@@ -204,49 +204,27 @@ p.section-p-team-text {
   color: var(--p-text-colorr);
 }
 
+/*------------------ portfolio page ------------------*/
 
+/*------------------ portfolio navi block ------------------*/
 
-
-
-
-
-
-
-
-
-
-h2.section-title-projekt {
+/*------------------ my projects ------------------*/
+h2.section-title {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
-  text-decoration: none;
+  line-height: 36px;
+  letter-spacing: 0.06em;
   color: var(--primary-text-color);
 }
 
-h2.section-title {
-  font-family: 'Roboto';
-  font-weight: 700;
-  font-size: 36px;
-  text-decoration: none;
-  color: var(--primary-text-color);
+p.section-p-text-port {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: var(--p-text-color);
 }
-
-
-
-
-
-
-.list {
-  list-style: none;
-  text-decoration: none;
-}
-
-/* шапка страницы 
-.header-line {
-  background: #ffffff;*/
-}
-
-/*кнопки навигации*/
-
-/*контакты*/
