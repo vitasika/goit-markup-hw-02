@@ -120,8 +120,7 @@ a {
 }
 
 /*------------------ block hero button ------------------*/
-/*
-.button-style-hero {
+.button-hero {
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -131,21 +130,9 @@ a {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  color: var(--background-head-color); 
-  background: var(--second-text-color); 
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  width: 200px;
-  height: 50px;
+  color: var(--background-head-color);
+  background: #2196f3;
 }
-
-.button-style-hero:hover,
-.button-style-hero:focus {
-  background: var(--second-text-color);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);  
-  border-radius: 4px;
-}
-*/
 
 /*------------------ section to work ------------------*/
 h3.section-title-text {
@@ -207,6 +194,26 @@ p.section-p-team-text {
 /*------------------ portfolio page ------------------*/
 
 /*------------------ portfolio navi block ------------------*/
+.button-navi-port {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+  background: var(--background-head-color);
+}
+
+.button-navi-port:hover,
+.button-navi-port:focus {
+  color: var(--background-head-color);
+  background: var(--second-text-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
 
 /*------------------ my projects ------------------*/
 h2.section-title {
