@@ -131,7 +131,9 @@ a {
   text-align: center;
   letter-spacing: 0.06em;
   color: var(--background-head-color);
-  background: #2196f3;
+  background: var(--second-text-color);
+  border-color: transparent;
+  border-radius: 4px;
 }
 
 /*------------------ section to work ------------------*/
@@ -204,6 +206,10 @@ p.section-p-team-text {
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
   background: var(--background-head-color);
+  width: auto;
+  height: 38px;
+  border-color: transparent;
+  border-radius: 4px;
 }
 
 .button-navi-port:hover,
