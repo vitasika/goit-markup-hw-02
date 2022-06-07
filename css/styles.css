@@ -8,6 +8,8 @@
   --background-footer-color: #2f303a;
   --p-text-color: #757575;
   --contakt-footer-color: rgba(255, 255, 255, 0.6);
+  --text-line-letter: 0.03em;
+  --font-size-middle: 14px;
 }
 
 body {
@@ -34,7 +36,7 @@ a {
   font-style: inherit;
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
+  letter-spacing: var(--text-line-letter);
   text-decoration: none;
 }
 
@@ -45,7 +47,7 @@ a {
   font-style: inherit;
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
+  letter-spacing: var(--text-line-letter);
   text-decoration: none;
 }
 
@@ -56,7 +58,7 @@ a {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
+  letter-spacing: var(--text-line-letter);
 }
 
 /*------------------ button navi header ------------------*/
@@ -65,7 +67,7 @@ a {
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
-  font-size: 14px;
+  font-size: var(--font-size-middle);
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
@@ -79,7 +81,7 @@ a {
   color: var(--p-text-color);
   font-family: Roboto;
   font-weight: 500;
-  font-size: 14px;
+  font-size: var(--font-size-middle);
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
@@ -95,18 +97,18 @@ a {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
+  font-size: var(--font-size-middle);
   line-height: 1.71;
-  letter-spacing: 0.03em;
+  letter-spacing: var(--text-line-letter);
 }
 
 .contakt-footer-color {
   font-family: Roboto;
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
+  font-size: var(--font-size-middle);
   line-height: 1.71;
-  letter-spacing: 0.03em;
+  letter-spacing: var(--text-line-letter);
   color: var(--contakt-footer-color);
 }
 
@@ -144,9 +146,9 @@ h3.section-title-text {
   font-family: Roboto;
   font-style: normal;
   font-weight: 700;
-  font-size: 14px;
+  font-size: var(--font-size-middle);
   line-height: 1.14;
-  letter-spacing: 0.03em;
+  letter-spacing: var(--text-line-letter);
   text-transform: uppercase;
   color: var(--primary-text-color);
 }
@@ -155,9 +157,9 @@ p.section-p-text {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
+  font-size: var(--font-size-middle);
   line-height: 1.71;
-  letter-spacing: 0.03em;
+  letter-spacing: var(--text-line-letter);
   color: var(--p-text-color);
 }
 
@@ -168,7 +170,7 @@ h2.section-title-work {
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
-  letter-spacing: 0.03em;
+  letter-spacing: var(--text-line-letter);
   color: var(--primary-text-color);
 }
 
@@ -180,7 +182,7 @@ h3.section-team-text {
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
-  letter-spacing: 0.03em;
+  letter-spacing: var(--text-line-letter);
   color: var(--primary-text-color);
 }
 
@@ -191,7 +193,7 @@ p.section-p-team-text {
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
-  letter-spacing: 0.03em;
+  letter-spacing: var(--text-line-letter);
   color: var(--p-text-colorr);
 }
 
@@ -223,7 +225,7 @@ p.section-p-team-text {
   font-size: 16px;
   line-height: 1.63;
   text-align: center;
-  letter-spacing: 0.03em;
+  letter-spacing: var(--text-line-letter);
   color: var(--primary-text-color);
   background: var(--background-head-color);
   width: auto;
@@ -258,6 +260,6 @@ p.section-p-text-port {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
-  letter-spacing: 0.03em;
+  letter-spacing: var(--text-line-letter);
   color: var(--p-text-color);
 }
