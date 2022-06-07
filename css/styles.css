@@ -1,265 +1,294 @@
 :root {
-  --primary-text-color: #212121;
-  --second-text-color: #2196f3;
-  --second-text-logo-color: #ffffff;
-  --background-head-color: #ffffff;
-  --background-work-color: #e5e5e5;
-  --background-comand-color: #f5f4fa;
-  --background-footer-color: #2f303a;
-  --p-text-color: #757575;
-  --contakt-footer-color: rgba(255, 255, 255, 0.6);
-  --text-line-letter: 0.03em;
-  --font-size-middle: 14px;
+    --primary-text-color: #212121;
+    --second-text-color: #2196f3;
+    --second-text-logo-color: #ffffff;
+    --background-head-color: #ffffff;
+    --background-work-color: #e5e5e5;
+    --background-comand-color: #f5f4fa;
+    --background-footer-color: #2f303a;
+    --p-text-color: #757575;
+    --contakt-footer-color: rgba(255, 255, 255, 0.6);
+    --text-line-letter: 0.03em;
+    --font-size-middle: 14px;
 }
 
 body {
-  /* font-family: 'Raleway', sans-serif; */
-  font-family: 'Roboto', sans-serif;
-  background-color: var(--second-text-logo-color); /*фоновый цвет что бы были видны белые элементы макета*/
+    /* font-family: 'Raleway', sans-serif; */
+    font-family: 'Roboto', sans-serif;
+    background-color: var(
+        --second-text-logo-color
+    ); /*фоновый цвет что бы были видны белые элементы макета*/
 }
 
 /*------------------ глобальные изменения ------------------*/
 
 li {
-  list-style: none;
+    list-style: none;
 }
 
 a {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 /*------------------ logo main and footer ------------------*/
 .logo {
-  color: var(--second-text-color);
-  font-family: Raleway;
-  font-weight: 700;
-  font-style: inherit;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: var(--text-line-letter);
-  text-decoration: none;
+    color: var(--second-text-color);
+    font-family: "Raleway";
+    font-weight: 700;
+    font-style: inherit;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: var(--text-line-letter);
+    text-decoration: none;
 }
 
 .logo-end-head {
-  color: var(--primary-text-color);
-  font-family: Raleway;
-  font-weight: 700;
-  font-style: inherit;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: var(--text-line-letter);
-  text-decoration: none;
+    color: var(--primary-text-color);
+    font-family: "Raleway";
+    font-weight: 700;
+    font-style: inherit;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: var(--text-line-letter);
+    text-decoration: none;
 }
 
 .logo-end-footer {
-  color: var(--second-text-logo-color);
-  font-family: Raleway;
-  font-style: inherit;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: var(--text-line-letter);
+    color: var(--second-text-logo-color);
+    font-family: "Raleway";
+    font-style: inherit;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: var(--text-line-letter);
 }
 
 /*------------------ button navi header ------------------*/
 .button-head-navi {
-  color: var(--primary-text-color);
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
-  font-size: var(--font-size-middle);
-  line-height: 1.14;
-  letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+    /* font-family: "Roboto"; */
+    /* font-style: normal; */
+    font-weight: 500;
+    font-size: var(--font-size-middle);
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 .button-head-navi:hover,
 .button-head-navi:focus {
-  color: var(--second-text-color);
+    color: var(--second-text-color);
 }
 
 /*------------------ contakt header ------------------*/
 .contakt-head {
-  color: var(--p-text-color);
-  font-family: Roboto;
-  font-weight: 500;
-  font-size: var(--font-size-middle);
-  line-height: 1.14;
-  letter-spacing: 0.02em;
+    color: var(--p-text-color);
+    /* font-family: Roboto; */
+    font-weight: 500;
+    font-size: var(--font-size-middle);
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 
 .contakt-head:hover,
-.contakt-head:focus {
-  color: var(--second-text-color);
+.contakt-head:focus,
+.contakt-footer-color:hover,
+.contakt-footer-color:focus {
+    color: var(--second-text-color);
 }
 
 /*------------------ contakt footer ------------------*/
 .contakt-footer-addres-color {
-  color: var(--background-head-color);
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  font-size: var(--font-size-middle);
-  line-height: 1.71;
-  letter-spacing: var(--text-line-letter);
+    color: var(--background-head-color);
+    /* font-family: 'Roboto'; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: var(--font-size-middle);
+    line-height: 1.71;
+    letter-spacing: var(--text-line-letter);
 }
 
 .contakt-footer-color {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 400;
-  font-size: var(--font-size-middle);
-  line-height: 1.71;
-  letter-spacing: var(--text-line-letter);
-  color: var(--contakt-footer-color);
+    /* font-family: "Roboto"; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: var(--font-size-middle);
+    line-height: 1.71;
+    letter-spacing: var(--text-line-letter);
+    color: var(--contakt-footer-color);
 }
 
 /*------------------ block hero ------------------*/
 .section-title-hero {
-  font-family: 'Roboto';
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
-  text-align: center;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: var(--background-head-color);
+    /* font-family: 'Roboto'; */
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--background-head-color);
+    background-color: #2F303A;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 200px 0;
 }
 
 /*------------------ block hero button ------------------*/
 .button-hero {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.88;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.06em;
-  color: var(--background-head-color);
-  background: var(--second-text-color);
-  border-color: transparent;
-  border-radius: 4px;
+    /* font-family: "Roboto";
+    font-style: normal; */
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--background-head-color);
+    background: var(--second-text-color);
+    border-color: transparent;
+    border-radius: 4px;
 }
 
 /*------------------ section to work ------------------*/
 h3.section-title-text {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 700;
-  font-size: var(--font-size-middle);
-  line-height: 1.14;
-  letter-spacing: var(--text-line-letter);
-  text-transform: uppercase;
-  color: var(--primary-text-color);
+    /* font-family: Roboto;
+    font-style: normal; */
+    /* font-weight: 700; */
+    font-size: var(--font-size-middle);
+    line-height: 1.14;
+    letter-spacing: var(--text-line-letter);
+    text-transform: uppercase;
+    color: var(--primary-text-color);
 }
 
 p.section-p-text {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  font-size: var(--font-size-middle);
-  line-height: 1.71;
-  letter-spacing: var(--text-line-letter);
-  color: var(--p-text-color);
+    /* font-family: 'Roboto'; */
+    /* font-style: normal; */
+    font-weight: 400;
+    font-size: var(--font-size-middle);
+    line-height: 1.71;
+    letter-spacing: var(--text-line-letter);
+    color: var(--p-text-color);
 }
 
 h2.section-title-work {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
-  text-align: center;
-  letter-spacing: var(--text-line-letter);
-  color: var(--primary-text-color);
+    /* font-family: 'Roboto'; */
+    /* font-style: normal; */
+    /* font-weight: 700; */
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: var(--text-line-letter);
+    color: var(--primary-text-color);
 }
 
 /*------------------ my team ------------------*/
 h3.section-team-text {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.18;
-  text-align: center;
-  letter-spacing: var(--text-line-letter);
-  color: var(--primary-text-color);
+    /* font-family: 'Roboto';
+    font-style: normal; */
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: var(--text-line-letter);
+    color: var(--primary-text-color);
 }
 
 p.section-p-team-text {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.18;
-  text-align: center;
-  letter-spacing: var(--text-line-letter);
-  color: var(--p-text-colorr);
+    /* font-family: 'Roboto';
+    font-style: normal; */
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: var(--text-line-letter);
+    color: var(--p-text-colorr);
 }
 
 /*------------------ portfolio page ------------------*/
 
-.current{
-  color: var(--second-text-color);
+.current {
+    color: var(--second-text-color);
 }
 
-.current::after{  
-  content: "";
-  position: absolute;
-  left: 0;  
-  bottom: -1px;
-  display: block;
-  width: 100%;
-  height: 4px;
-  border-radius: 2px;
-  background-color: var(--second-text-color);
+.active {
+  background-color: var(--second-text-color) !important;
+  color: var(--second-text-logo-color) !important;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+        0px 2px 2px rgba(0, 0, 0, 0.12);
+}
 
-  /* transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1); */
+.current::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    display: block;
+    width: 100%;
+    height: 4px;
+    border-radius: 2px;
+    /* background-color: var(--second-text-color); */
+
+    /* transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
 /*------------------ portfolio navi block ------------------*/
 .button-navi-port {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.63;
-  text-align: center;
-  letter-spacing: var(--text-line-letter);
-  color: var(--primary-text-color);
-  background: var(--background-head-color);
-  width: auto;
-  height: 38px;
-  border-color: transparent;
-  border-radius: 4px;
+    font-family: "Roboto";
+    /* font-style: normal; */
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
+    letter-spacing: var(--text-line-letter);
+    color: var(--primary-text-color);
+    background-color: var(--background-comand-color);
+    width: auto;
+    height: 38px;
+    border: none;
+    border-radius: 4px;
+}
+
+.nav-button-pos{
+  display: flex;
+}
+
+.nav-button-pos:not(:last-child) li {
+  margin-right: 8px;
 }
 
 .button-navi-port:hover,
 .button-navi-port:focus {
-  color: var(--background-head-color);
-  background: var(--second-text-color);
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
-  border-radius: 4px;
+    color: var(--background-head-color);
+    background: var(--second-text-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+        0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
 }
 
 /*------------------ my projects ------------------*/
 h2.section-title {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
-  color: var(--primary-text-color);
+    /* font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700; */
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--primary-text-color);
 }
 
 p.section-p-text-port {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.87;
-  letter-spacing: var(--text-line-letter);
-  color: var(--p-text-color);
+    /* font-family: Roboto;
+    font-style: normal; */
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: var(--text-line-letter);
+    color: var(--p-text-color);
+}
+
+
+
+.footer__fone {
+  background-color: #2F303A;
+  padding: 60px 0;
 }
