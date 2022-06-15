@@ -146,6 +146,7 @@ a {
     background: var(--second-text-color);
     border-color: transparent;
     border-radius: 4px;
+    cursor: pointer;
 }
 
 /*------------------ section to work ------------------*/
