@@ -13,7 +13,6 @@
 }
 
 body {
-    /* font-family: 'Raleway', sans-serif; */
     font-family: 'Roboto', sans-serif;
     background-color: var(--second-text-logo-color);
     /*фоновый цвет что бы были видны белые элементы макета*/
@@ -65,8 +64,6 @@ a {
 /*------------------ button navi header ------------------*/
 .button-head-navi {
     color: var(--primary-text-color);
-    /* font-family: "Roboto"; */
-    /* font-style: normal; */
     font-weight: 500;
     font-size: var(--font-size-middle);
     line-height: 1.14;
@@ -82,7 +79,6 @@ a {
 /*------------------ contakt header ------------------*/
 .contakt-head {
     color: var(--p-text-color);
-    /* font-family: Roboto; */
     font-weight: 500;
     font-size: var(--font-size-middle);
     line-height: 1.14;
