@@ -31,7 +31,7 @@ a {
 /*------------------ logo main and footer ------------------*/
 .logo {
     color: var(--second-text-color);
-    font-family: "Raleway";
+    font-family: 'Raleway';
     font-weight: 700;
     font-style: inherit;
     font-size: 26px;
@@ -42,7 +42,7 @@ a {
 
 .logo-end-head {
     color: var(--primary-text-color);
-    font-family: "Raleway";
+    font-family: 'Raleway';
     font-weight: 700;
     font-style: inherit;
     font-size: 26px;
@@ -53,7 +53,7 @@ a {
 
 .logo-end-footer {
     color: var(--second-text-logo-color);
-    font-family: "Raleway";
+    font-family: 'Raleway';
     font-style: inherit;
     font-weight: 700;
     font-size: 26px;
@@ -125,7 +125,7 @@ a {
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--background-head-color);
-    background-color: #2F303A;
+    background-color: #2f303a;
     padding: 200px 0;
 }
 
@@ -147,15 +147,15 @@ a {
     margin-right: auto;
     margin-left: auto;
     padding: 10px 32px;
-    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button-hero:hover,
-.button-hero:focus
-{
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-background-color: #188CE8;
-cursor: pointer;
+.button-hero:focus {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    background-color: #188ce8;
+    cursor: pointer;
 }
 
 /*------------------ section to work ------------------*/
@@ -233,7 +233,7 @@ p.section-p-team-text {
 
 /*------------------ portfolio navi block ------------------*/
 .button-navi-port {
-    font-family: "Roboto";
+    font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
     line-height: 1.63;
@@ -245,6 +245,9 @@ p.section-p-team-text {
     height: 38px;
     border: none;
     border-radius: 4px;
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav-button-pos {
@@ -281,9 +284,7 @@ p.section-p-text-port {
     color: var(--p-text-color);
 }
 
-
-
 .footer__fone {
-    background-color: #2F303A;
+    background-color: #2f303a;
     padding: 60px 0;
 }
