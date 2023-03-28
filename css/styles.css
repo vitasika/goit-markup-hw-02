@@ -3,22 +3,30 @@
     --second-text-color: #2196f3;
     --second-text-logo-color: #ffffff;
     --background-head-color: #ffffff;
-    --background-work-color: #e5e5e5;
+    --background-hero-color: #2f303a;
+    --background-work-color: #f5f4fa;
     --background-comand-color: #f5f4fa;
     --background-footer-color: #2f303a;
     --p-text-color: #757575;
     --contakt-footer-color: rgba(255, 255, 255, 0.6);
     --text-line-letter: 0.03em;
     --font-size-middle: 14px;
+    --btn-focus-color:#188ce8;
 }
 
 body {
     font-family: 'Roboto', sans-serif;
     background-color: var(--second-text-logo-color);
     /*фоновый цвет что бы были видны белые элементы макета*/
+    text-align: center;
 }
 
 /*------------------ глобальные изменения ------------------*/
+
+ul {
+    padding: 0px;
+    list-style: none;
+}
 
 li {
     list-style: none;
@@ -27,6 +35,16 @@ li {
 a {
     text-decoration: none;
 }
+
+h1,
+h2,
+h3,
+h4,
+ul,
+p {
+  margin: 0;
+}
+
 
 /*------------------ logo main and footer ------------------*/
 .logo {
@@ -117,6 +135,11 @@ a {
 }
 
 /*------------------ block hero ------------------*/
+.section-hero{
+background-color: var(--background-hero-color);
+padding: 200px 0;
+}
+
 .section-title-hero {
     font-weight: 900;
     font-size: 44px;
@@ -125,8 +148,7 @@ a {
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--background-head-color);
-    background-color: #2f303a;
-    padding: 200px 0;
+    margin-bottom: 30px;
 }
 
 /*------------------ block hero button ------------------*/
@@ -154,14 +176,27 @@ a {
 .button-hero:hover,
 .button-hero:focus {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    background-color: #188ce8;
+    background-color: var(--btn-focus-color);
     cursor: pointer;
 }
 
 /*------------------ section to work ------------------*/
-.work-hidden-text {
-    text-align: center;
-    display: none;
+.section-work{
+    background: var(--background-work-color);
+}
+
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
 }
 
 h3.section-title-text {
@@ -186,6 +221,18 @@ h2.section-title-work {
     text-align: center;
     letter-spacing: var(--text-line-letter);
     color: var(--primary-text-color);
+}
+
+.item-team-card{
+    width: 270px;
+    background:  var(--background-head-color);;    
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    margin: 0 auto;
+}
+
+.item-team-card:not(:last-child){
+    margin-bottom: 30px;
 }
 
 /*------------------ my team ------------------*/
@@ -285,6 +332,6 @@ p.section-p-text-port {
 }
 
 .footer__fone {
-    background-color: #2f303a;
+    background-color: var(--background-footer-color);
     padding: 60px 0;
 }
